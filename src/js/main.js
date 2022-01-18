@@ -83,7 +83,7 @@
     self.magnetism = 0.1 + Math.random() * 4
     self.color = self.colors[Math.floor(Math.random() * self.colors.length)]
     self.alpha = self.generateDecimalBetween(5, 10) / 10
-    self.size = self.generateDecimalBetween(4, 8)
+    self.size = self.generateDecimalBetween(2, 6)
     self.posX = 0
     self.posY = 0
     self.movementX = self.generateDecimalBetween(-2, 2) / self.velocity
