@@ -90,11 +90,6 @@
 }
 
 .has-animations {
-
-	.hero .hero-bg,
-	.hero::before,
-	.hero::after,
-	.hero-particles-container,
 	.site-header,
 	.hero-title,
 	.hero-paragraph,
@@ -105,18 +100,6 @@
 	}
 
 	&.is-loaded {
-
-		.hero {
-
-			.hero-bg {
-				animation: heroBg .6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
-			}
-
-			&::before,
-			&::after {
-				animation: heroFadeIn .6s ease forwards .45s;
-			}
-		}
 
 		.site-header,
 		.hero-particles-container,
