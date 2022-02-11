@@ -1,4 +1,9 @@
 (function () {
+  if (navigator.share) {
+    document.getElementById('sharebutton').style.display = 'block';
+    document.getElementById('sharebutton2').style.display = 'block';
+  }
+
   const doc = document
   const rootEl = doc.documentElement
   const body = doc.body

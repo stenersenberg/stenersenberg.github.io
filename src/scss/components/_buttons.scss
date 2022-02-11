@@ -78,6 +78,10 @@
     color: color(typography, 1i) !important;
     transition: background .15s ease;
 }
+.button-secondary {
+    margin: 20px auto 0;
+    display: none;
+}
 
 .button-primary {
     background: color(primary, 1);
@@ -119,11 +123,8 @@
 }
 
 .button-secondary {
-	background: color(secondary, 1);
-
-    &:hover {
-        background: lighten(color(secondary, 1), 3%);
-    }
+    background: #5E4E8E;
+    border: 1px solid #e7284e;
 
     &.button-shadow {
 
