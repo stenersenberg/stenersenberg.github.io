@@ -1,0 +1,9 @@
+User-agent: Googlebot-Image
+Disallow: /dist/images/iphone-feature-bg-01.svg
+Disallow: /dist/images/iphone-feature-bg-02.svg
+Disallow: /dist/images/iphone-feature-bg-03.svg
+Disallow: /dist/images/iphone-feature-bg-04.svg
+Disallow: /dist/images/footer-bg.svg
+Disallow: /dist/images/iphone-hero-bg.svg
+Disallow: /dist/images/hero-bg-bottom.svg
+Disallow: /dist/images/hero-bg-top.svg
