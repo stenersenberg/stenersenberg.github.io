@@ -1,16 +1,3 @@
-.has-animations {
-
-	.features-extended {
-		opacity: 0;
-	}
-
-	&.is-loaded {
-
-		.features-extended {
-			opacity: 1;
-		}
-	}
-}
 
 .features-extended-header {
 	margin-bottom: 32px;
