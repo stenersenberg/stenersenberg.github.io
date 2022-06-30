@@ -165,10 +165,13 @@
   }
 
   window.addEventListener('load', function () {
-    const heroParticles = new Background('hero-particles')
-    const footerParticles = new Background('footer-particles')
-    heroParticles.start()
-    footerParticles.start()
+    setTimeout(() => {
+      const heroParticles = new Background('hero-particles')
+      const footerParticles = new Background('footer-particles')
+      heroParticles.start()
+      footerParticles.start()
+
+    }, 3000)
   })
 
   window.requestAnimFrame = (function () {
