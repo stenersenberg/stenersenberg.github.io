@@ -1,5 +1,4 @@
 .button {
-    font-family: "Nunito", serif;
     display: inline-flex;
     @include font-size(8, mobile, true, false, true);
     @if ( get-font-size(8, desktop) != get-font-size(8, mobile) ) {
@@ -8,6 +7,7 @@
         }
     }
     @include font-weight(bold);
+    font-family: "Nunito", serif;
     line-height: 16px;
     text-decoration: none !important;
 	text-transform: uppercase;
