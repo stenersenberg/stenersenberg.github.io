@@ -70,3 +70,10 @@ main {
         padding-bottom: 88px;
     }
 }
+
+img {
+    transition: all 0.2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.1);
+}
