@@ -77,3 +77,11 @@ img {
 img:hover {
     transform: scale(1.1);
 }
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+}
