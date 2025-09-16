@@ -1,197 +1,326 @@
-<!DOCTYPE html>
-<html lang="no" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="theme-color" content="#5E4E8E" media="(prefers-color-scheme: light)">
-	<meta name="theme-color" content="#5E4E8E" media="(prefers-color-scheme: dark)">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/svg+xml" href="dist/images/favicon.svg" />
-    <title>Finn Barnenavn</title>
-	<!-- Primary Meta Tags -->
-	<meta name="title" content="Finn Barnenavn">
-	<meta name="description" content="Leter du etter det perfekte barnenavnet? I Finn Barnenavn appen kan du enkelt lete gjennom tusenvis av navn.">
+<!DOCTYPE html><html lang="en"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#5E4E8E" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#5E4E8E" media="(prefers-color-scheme: dark)"><meta name="CCBot" content="nofollow"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet"><script>
+      (function (f, b) {
+        if (!b.__SV) {
+          var e, g, i, h;
+          window.mixpanel = b;
+          b._i = [];
+          b.init = function (e, f, c) {
+            function g(a, d) {
+              var b = d.split(".");
+              2 == b.length && ((a = a[b[0]]), (d = b[1]));
+              a[d] = function () {
+                a.push([d].concat(Array.prototype.slice.call(arguments, 0)));
+              };
+            }
+            var a = b;
+            "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel");
+            a.people = a.people || [];
+            a.toString = function (a) {
+              var d = "mixpanel";
+              "mixpanel" !== c && (d += "." + c);
+              a || (d += " (stub)");
+              return d;
+            };
+            a.people.toString = function () {
+              return a.toString(1) + ".people (stub)";
+            };
+            i =
+              "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(
+                " "
+              );
+            for (h = 0; h < i.length; h++) g(a, i[h]);
+            var j = "set set_once union unset remove delete".split(" ");
+            a.get_group = function () {
+              function b(c) {
+                d[c] = function () {
+                  call2_args = arguments;
+                  call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+                  a.push([e, call2]);
+                };
+              }
+              for (
+                var d = {},
+                  e = ["get_group"].concat(
+                    Array.prototype.slice.call(arguments, 0)
+                  ),
+                  c = 0;
+                c < j.length;
+                c++
+              )
+                b(j[c]);
+              return d;
+            };
+            b._i.push([e, f, c]);
+          };
+          b.__SV = 1.2;
+          e = f.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src =
+            "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+              ? MIXPANEL_CUSTOM_LIB_URL
+              : "file:" === f.location.protocol &&
+                "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+              ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+              : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+          g = f.getElementsByTagName("script")[0];
+          g.parentNode.insertBefore(e, g);
+        }
+      })(document, window.mixpanel || []);
 
-	<!-- Open Graph / Apple -->
-	<meta name="apple-itunes-app" content="app-id=1556431682">
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://finnbarnenavn.no/">
-	<meta property="og:title" content="Finn Barnenavn">
-	<meta property="og:description" content="Leter du etter det perfekte barnenavnet? I Finn Barnenavn appen  kan du enkelt lete gjennom tusenvis av navn.">
-	<meta property="og:image" content="https://finnbarnenavn.no/dist/images/metadata.webp">
-
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://finnbarnenavn.no/">
-	<meta property="twitter:title" content="Finn Barnenavn">
-	<meta property="twitter:description" content="Leter du etter det perfekte barnenavnet? I Finn Barnenavn appen kan du enkelt lete gjennom tusenvis av navn.">
-	<meta property="twitter:image" content="https://finnbarnenavn.no/dist/images/metadata.webp">
-    <link rel="stylesheet" href="dist/css/style.css">
-
-	<script type="text/javascript">
-		(function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-			for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-				MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
-
-		// Enabling the debug mode flag is useful during implementation,
-		// but it's recommended you remove it for production
-		mixpanel.init('aa485a384ff93a86270085d12a53f7e0');
-		mixpanel.track('Page view');
-	</script>
-</head>
-<body class="is-boxed">
-    <div class="body-wrap boxed-container">
-        <main>
-            <section class="hero text-center text-light">
-				<div class="hero-bg"></div>
-				<div class="hero-particles-container">
-					<canvas id="hero-particles"></canvas>
-				</div>
-                <div class="container-sm">
-                    <div class="hero-inner hidden">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Leter du etter det perfekte barnenavnet?</h1>
-	                        <p class="hero-paragraph">Finn Barnenavn er en app hvor du enkelt sveipe deg gjennom tusenvis av navn og få personlige navneforslag.</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary button-wide-mobile" href="https://onelink.to/finnbarnenavn?fbclid=IwAR39QS2kzRAg4r58YUEI0BsGS33N8PotdK5cppyK6d4ygtuMOcAuoGomWkc">Last ned appen</a>
-								<button id="sharebutton" onclick="(function(){
+      // Enabling the debug mode flag is useful during implementation,
+      // but it's recommended you remove it for production
+      mixpanel.init("8e498f4c3878dca4cc6cb621c76f9301");
+      mixpanel.track("Page view");
+    </script><link rel="stylesheet" href="/_astro/_slug_.CruD946Q.css">
+<style>.site-footer[data-astro-cid-sz7xmlte]{position:relative;background:#5e4e8e}.cta-rating[data-astro-cid-sz7xmlte]{font-size:18px;margin:16px 0;font-weight:500}.cta-rating[data-astro-cid-sz7xmlte] .stars[data-astro-cid-sz7xmlte]{color:gold}.site-footer[data-astro-cid-sz7xmlte] .footer-particles-container[data-astro-cid-sz7xmlte]{position:absolute;inset:0}.site-footer-bottom[data-astro-cid-sz7xmlte]{font-size:14px;line-height:22px;letter-spacing:0px;z-index:1}.site-footer-bottom[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]{color:#fff;text-decoration:none}.site-footer-bottom[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]:hover,.site-footer-bottom[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]:active{text-decoration:underline}.site-footer-inner[data-astro-cid-sz7xmlte]{display:flex;flex-wrap:wrap;padding-top:48px;padding-bottom:48px;position:relative}.site-footer-inner[data-astro-cid-sz7xmlte]:before{content:"";position:absolute;top:0;left:0;width:100%;display:block;height:1px;background:#5e4e8e}.footer-brand[data-astro-cid-sz7xmlte],.footer-links[data-astro-cid-sz7xmlte],.footer-social-links[data-astro-cid-sz7xmlte],.footer-copyright[data-astro-cid-sz7xmlte]{flex:none;width:100%;display:inline-flex;justify-content:center}.footer-brand[data-astro-cid-sz7xmlte],.footer-links[data-astro-cid-sz7xmlte],.footer-social-links[data-astro-cid-sz7xmlte]{margin-bottom:24px}.footer-links[data-astro-cid-sz7xmlte] li[data-astro-cid-sz7xmlte]+li[data-astro-cid-sz7xmlte],.footer-social-links[data-astro-cid-sz7xmlte] li[data-astro-cid-sz7xmlte]+li[data-astro-cid-sz7xmlte]{margin-left:16px}.footer-social-links[data-astro-cid-sz7xmlte] li[data-astro-cid-sz7xmlte]{display:inline-flex}.footer-social-links[data-astro-cid-sz7xmlte] li[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte]{padding:8px}@media (min-width: 641px){.site-footer[data-astro-cid-sz7xmlte]:before{left:0;top:-152px;width:100%;height:582px;background-size:100% 582px}.site-footer-inner[data-astro-cid-sz7xmlte]{justify-content:space-between;padding-top:64px;padding-bottom:64px}.footer-brand[data-astro-cid-sz7xmlte],.footer-links[data-astro-cid-sz7xmlte],.footer-social-links[data-astro-cid-sz7xmlte],.footer-copyright[data-astro-cid-sz7xmlte]{flex:50%}.footer-brand[data-astro-cid-sz7xmlte],.footer-copyright[data-astro-cid-sz7xmlte]{justify-content:flex-start}.footer-links[data-astro-cid-sz7xmlte],.footer-social-links[data-astro-cid-sz7xmlte]{justify-content:flex-end}.footer-links[data-astro-cid-sz7xmlte]{order:1;margin-bottom:0}}
+</style>
+<link rel="stylesheet" href="/_astro/index.DTZN51yb.css">
+<style>.menu-overlay[data-astro-cid-2j44jlrm]{position:fixed;top:0;left:0;width:100%;height:100%;background:#000000f2;z-index:10000;opacity:0;visibility:hidden;transition:all .3s ease}.menu-overlay[data-astro-cid-2j44jlrm].menu-open{opacity:1;visibility:visible}.menu-content[data-astro-cid-2j44jlrm]{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;position:relative}.menu-close[data-astro-cid-2j44jlrm]{position:absolute;top:40px;right:40px;background:none;border:none;color:#fff;font-size:20px;cursor:pointer;padding:8px 16px;font-family:Inter,serif;font-weight:700;text-transform:uppercase;letter-spacing:1px;transition:all .3s ease;border-radius:4px}.menu-close[data-astro-cid-2j44jlrm]:hover{background:#ffffff1a}.menu-nav[data-astro-cid-2j44jlrm]{text-align:center}.menu-links[data-astro-cid-2j44jlrm]{list-style:none;padding:0;margin:0}.menu-links[data-astro-cid-2j44jlrm] li[data-astro-cid-2j44jlrm]{margin-bottom:32px}.menu-links[data-astro-cid-2j44jlrm] a[data-astro-cid-2j44jlrm]{color:#fff;text-decoration:none;font-family:Ivar Display,serif;font-size:48px;font-weight:400;line-height:1.2;transition:all .3s ease;display:block;padding:16px 32px;border-radius:8px}.menu-links[data-astro-cid-2j44jlrm] a[data-astro-cid-2j44jlrm]:hover{background:#ffffff0d;transform:translateY(-2px)}@media (max-width: 640px){.menu-close[data-astro-cid-2j44jlrm]{top:24px;right:24px;font-size:16px;padding:6px 12px}.menu-links[data-astro-cid-2j44jlrm] a[data-astro-cid-2j44jlrm]{font-size:36px;padding:12px 24px}.menu-links[data-astro-cid-2j44jlrm] li[data-astro-cid-2j44jlrm]{margin-bottom:24px}}
+</style></head> <body> <header>  </header>  <div class="body-wrap boxed-container"> <main> <section class="hero text-center text-light"> <div class="hero-bg"></div> <div class="hero-particles-container"> <canvas id="hero-particles"></canvas> </div> <div class="hero-container"> <div class="hero-inner hero-inner-flex hidden"> <div class="relative flex-shrink-0 hidden md:block md:flex-mockup"> <img class="hero-device-mockup" src="/swipe-website.webp" alt="Screenshot of the app with the name Julie"> </div> <div class="hero-copy"> <h1 class="hero-title mt-0" style="font-weight: 700;"> Leter du etter det perfekte barnenavnet? </h1> <p class="hero-paragraph"> Finn Barnenavn hjelper deg med å sveipe gjennom tusenvis av navn og få personlige navneforslag. </p> <div class="hero-cta" style="margin-top: 3rem;"> <a class="button button-primary button-wide-mobile" href="https://onelink.to/finnbarnenavn?fbclid=IwAR39QS2kzRAg4r58YUEI0BsGS33N8PotdK5cppyK6d4ygtuMOcAuoGomWkc">Last ned appen</a> <button id="sharebutton" onclick="(function(){
 										navigator.share({
 										title: 'Finn Barnenavn',
-										text: 'Denne appen hjelper deg å finne barnenavn!',
-										url: 'https://finnbarnenavn.no',
+										text: 'Denne appen kan hjelpe deg å finne barnenavn!',
+										url: 'https://www.finnbarnenavn.no',
 									  })
-									})();return false;" class="button button-secondary button-wide-mobile">
-									Tips en venn
-								</button>
-
-							</div>
-						</div>
-						<div class="mockup-container">
-							<img class="device-mockup" src="dist/images/swipe-website.webp" alt="Skjermbilde av appen med navnet Emma">
-						</div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="features-extended section">
-                <div class="features-extended-inner section-inner">
-					<div class="features-extended-wrap">
-						<div class="container">
-							<div class="feature-extended hidden">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img loading="lazy" src="dist/images/iphone-feature-bg-01.svg" alt="Abstrakt bakgrunnsbilde med organiske fasonger i rosa og lilla ">
-									</div>
-									<img loading="lazy" class="device-mockup " src="dist/images/match-website.webp" alt="Skjermbilde av appen som viser at en bruker har fått en match">
-								</div>
-								<div class="feature-extended-body ">
-									<h2 class="mt-0 mb-16">Legg til og sveip med så mange du vil</h2>
-									<p class="m-0">Når du liker samme navn som noen du sveiper med får dere en match. Disse navnene legger seg i en egen liste.</p>
-								</div>
-							</div>
-							<div class="feature-extended hidden">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img loading="lazy" src="dist/images/iphone-feature-bg-04.svg" alt="Abstrakt bakgrunnsbilde med organiske fasonger i rosa og lilla ">
-									</div>
-									<img loading="lazy" class="device-mockup " src="dist/images/suggestions-website.webp" alt="Skjermbilde av appen med personlige forslag">
-								</div>
-								<div class="feature-extended-body ">
-									<h2 class="mt-0 mb-16">Personlige forslag</h2>
-									<p class="m-0">Navnevalget er veldig individuelt, men vi vil ikke at du skal gå glipp av noen navn. Derfor gir vi deg personlige forslag basert på hva du liker.</p>
-								</div>
-							</div>
-							<div class="feature-extended hidden">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img loading="lazy" src="dist/images/iphone-feature-bg-02.svg" alt="Abstrakt bakgrunnsbilde med organiske fasonger i rosa og lilla ">
-									</div>
-									<img loading="lazy" class="device-mockup " src="dist/images/statistics-website.webp" alt="Skjermbilde av appen med navnet statistikk">
-								</div>
-								<div class="feature-extended-body ">
-									<h2 class="mt-0 mb-16">Unngå navn som er mye brukt?</h2>
-									<p class="m-0">Full kontroll over populariteten til navnene du sveiper på. Man kan filtrere på popularitet når man sveiper, eller se på statistikk over bruk senere.</p>
-									<p style="margin-top: 20px" class="m-0">Velg bort populære navn, så finner du kanskje noen spesielle navn du liker!</p>
-								</div>
-							</div>
-							<div class="feature-extended hidden">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img loading="lazy" src="dist/images/iphone-feature-bg-03.svg" alt="Abstrakt bakgrunnsbilde med organiske fasonger i rosa og lilla ">
-									</div>
-									<img loading="lazy" class="device-mockup " src="dist/images/filter-website.webp" alt="Skjermbilde av appen med filter funksjonen">
-								</div>
-								<div class="feature-extended-body ">
-									<h2 class="mt-0 mb-16">Filtrer bort navn som ikke passer</h2>
-									<p class="m-0">Med filteret velger du enkelt navn som passer deg. Velg for eksempel blant land, popularitet, årstall, guttenavn, jentenavn eller lengde på navn.</p>
-									<p style="margin-top: 20px" class="m-0">Kanskje liker du best gamle guttenavn?</p>
-								</div>
-							</div>
-							<div class="feature-extended hidden">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img loading="lazy" src="dist/images/iphone-feature-bg-01.svg" alt="Abstrakt bakgrunnsbilde med organiske fasonger i rosa og lilla ">
-									</div>
-									<img loading="lazy" class="device-mockup " src="dist/images/likes-website.webp" alt="Skjermbilde av appen med lister over likte navn">
-								</div>
-								<div class="feature-extended-body ">
-									<h2 class="mt-0 mb-16">Full kontroll på navn du liker</h2>
-									<p class="m-0">Egen liste med navn du har likt. Sorter med stjerner, se statistikk og del listen din med andre.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-                </div>
-            </section>
-        </main>
-
-
-		<footer class="site-footer">
-			<div class="footer-particles-container">
-				<canvas id="footer-particles"></canvas>
-			</div>
-
-			<div class="site-footer-top">
-				<section class="cta section text-light">
-					<div class="container-sm">
-						<div class="cta-inner section-inner">
-							<div class="cta-header text-center">
-								<h3 class="section-title mt-0">Ikke gå glipp av det perfekte barnenavnet</h3>
-								<div>
-									<p>Gjør som tusenvis av andre, prøv appen i dag</p>
-
-									<span style="font-family: 'Ivar Display'; font-size: 14px">4,5 på AppStore</span>
-									<img style="max-width: 100px; margin: 0 auto; margin-bottom: 20px" src="dist/images/stars.webp" alt="4,6 fylte stjerner">
-
-								</div>
-								<div class="cta-cta">
-									<a class="button button-primary button-wide-mobile" href="https://onelink.to/finnbarnenavn?fbclid=IwAR39QS2kzRAg4r58YUEI0BsGS33N8PotdK5cppyK6d4ygtuMOcAuoGomWkc">Last ned appen</a>
-									<button id="sharebutton2" onclick="(function(){
+									})();return false;" class="button button-secondary button-wide-mobile"> Tips en venn </button> </div> </div> </div> <div class="scroll-indicator"> <span class="scroll-text">Se hvordan det fungerer</span> <div class="scroll-arrow">↓</div> </div> </div> </section> <section class="features-extended section"> <div class="features-extended-inner section-inner"> <div class="features-extended-wrap"> <div class="container"> <div class="feature-extended hidden" data-astro-cid-jlu7nt5s> <div class="feature-extended-image" data-astro-cid-jlu7nt5s> <div class="mockup-bg" data-astro-cid-jlu7nt5s> <img loading="lazy" src="/iphone-feature-bg-01.svg" alt="" data-astro-cid-jlu7nt5s> </div> <img loading="lazy" class="device-mockup is-revealing" src="/match-website.webp" alt="Screenshot of the app showing a match" data-astro-cid-jlu7nt5s> </div> <div class="feature-extended-body is-revealing" data-astro-cid-jlu7nt5s> <h2 class="mt-0 mb-16" data-astro-cid-jlu7nt5s>Sveip alene eller med andre</h2> <p class="m-0" data-astro-cid-jlu7nt5s> Legg til partneren din eller venner, og dere får alle en match når dere liker det samme navnet. Disse navnene havner i en separat matchliste. </p> </div> </div> <div class="feature-extended hidden" data-astro-cid-jlu7nt5s> <div class="feature-extended-image" data-astro-cid-jlu7nt5s> <div class="mockup-bg" data-astro-cid-jlu7nt5s> <img loading="lazy" src="/iphone-feature-bg-04.svg" alt="" data-astro-cid-jlu7nt5s> </div> <img loading="lazy" class="device-mockup is-revealing" src="/suggestions-website.webp" alt="Screenshot of the app with personal suggestions" data-astro-cid-jlu7nt5s> </div> <div class="feature-extended-body is-revealing" data-astro-cid-jlu7nt5s> <h2 class="mt-0 mb-16" data-astro-cid-jlu7nt5s>Personlige forslag</h2> <p class="m-0" data-astro-cid-jlu7nt5s> Vi lager personlige forslag bare for deg. Vi vil virkelig ikke at du skal gå glipp av navn som kan være interessante. </p> </div> </div>  </div> </div> </div> </section> <section class="testimonials section" data-astro-cid-aadlzisc> <div class="testimonials-inner section-inner" data-astro-cid-aadlzisc> <div class="testimonials-wrap" data-astro-cid-aadlzisc> <div class="container" data-astro-cid-aadlzisc> <div class="testimonials-header text-center" data-astro-cid-aadlzisc> <h2 class="mt-0" data-astro-cid-aadlzisc>Hva brukerne våre sier</h2> <p class="section-paragraph m-0" data-astro-cid-aadlzisc> Tusenvis av foreldre har funnet barnenavn med appen </p> </div> <div class="testimonials-grid hidden" data-astro-cid-aadlzisc> <div class="testimonial-card" data-astro-cid-aadlzisc> <div class="testimonial-content" data-astro-cid-aadlzisc> <h3 class="testimonial-header" data-astro-cid-aadlzisc>Strålende app</h3> <div class="testimonial-stars" data-astro-cid-aadlzisc> ⭐⭐⭐⭐⭐ </div> <p class="testimonial-text" data-astro-cid-aadlzisc>
+"Kona og jeg fant navnet til vår datter ved hjelp av denne appen. Anbefales på det sterkeste 💯"
+</p> <div class="testimonial-author" data-astro-cid-aadlzisc> <strong data-astro-cid-aadlzisc>Hans-Jørgen</strong> <span class="testimonial-location" data-astro-cid-aadlzisc>App Store-anmeldelse</span> </div> </div> </div><div class="testimonial-card" data-astro-cid-aadlzisc> <div class="testimonial-content" data-astro-cid-aadlzisc> <h3 class="testimonial-header" data-astro-cid-aadlzisc>Fantastiske Forslag</h3> <div class="testimonial-stars" data-astro-cid-aadlzisc> ⭐⭐⭐⭐⭐ </div> <p class="testimonial-text" data-astro-cid-aadlzisc>
+"Funksjonen for personlige forslag er fantastisk! Den anbefalte navn jeg aldri ville ha tenkt på, men som jeg endte opp med å elske. Enkelt, vakkert design som gjorde prosessen morsom."
+</p> <div class="testimonial-author" data-astro-cid-aadlzisc> <strong data-astro-cid-aadlzisc>Emma R.</strong> <span class="testimonial-location" data-astro-cid-aadlzisc>App Store-anmeldelse</span> </div> </div> </div><div class="testimonial-card" data-astro-cid-aadlzisc> <div class="testimonial-content" data-astro-cid-aadlzisc> <h3 class="testimonial-header" data-astro-cid-aadlzisc>Nydelig Grensesnitt</h3> <div class="testimonial-stars" data-astro-cid-aadlzisc> ⭐⭐⭐⭐⭐ </div> <p class="testimonial-text" data-astro-cid-aadlzisc>
+"Nydelig bra laga app, kanskje noe av det smudeste grensesnittet jeg har sett. Ti tomler opp!"
+</p> <div class="testimonial-author" data-astro-cid-aadlzisc> <strong data-astro-cid-aadlzisc>Christer</strong> <span class="testimonial-location" data-astro-cid-aadlzisc>In-app tilbakemelding</span> </div> </div> </div> </div> </div> </div> </div> </section>  <section class="features-extended section"> <div class="features-extended-inner section-inner"> <div class="features-extended-wrap"> <div class="container"> <div class="feature-extended hidden" data-astro-cid-jlu7nt5s> <div class="feature-extended-image" data-astro-cid-jlu7nt5s> <div class="mockup-bg" data-astro-cid-jlu7nt5s> <img loading="lazy" src="/iphone-feature-bg-02.svg" alt="" data-astro-cid-jlu7nt5s> </div> <img loading="lazy" class="device-mockup is-revealing" src="/statistics-website.webp" alt="Screenshot of the app with statistics" data-astro-cid-jlu7nt5s> </div> <div class="feature-extended-body is-revealing" data-astro-cid-jlu7nt5s> <h2 class="mt-0 mb-16" data-astro-cid-jlu7nt5s>Unngå populære navn?</h2> <p class="m-0" data-astro-cid-jlu7nt5s> Filtrer på popularitet mens du sveiper, eller se statistikk senere. </p> </div> </div> <div class="feature-extended hidden" data-astro-cid-jlu7nt5s> <div class="feature-extended-image" data-astro-cid-jlu7nt5s> <div class="mockup-bg" data-astro-cid-jlu7nt5s> <img loading="lazy" src="/iphone-feature-bg-03.svg" alt="" data-astro-cid-jlu7nt5s> </div> <img loading="lazy" class="device-mockup is-revealing" src="/filter-website.webp" alt="Screenshot of the app showing how the filtering works" data-astro-cid-jlu7nt5s> </div> <div class="feature-extended-body is-revealing" data-astro-cid-jlu7nt5s> <h2 class="mt-0 mb-16" data-astro-cid-jlu7nt5s>Filtrering og sortering</h2> <p class="m-0" data-astro-cid-jlu7nt5s> Med filteret kan du tilpasse listen over navn. Velg blant land, popularitet, år, guttenavn, jentenavn, eller for eksempel lengde på navn. </p> </div> </div> <div class="feature-extended hidden" data-astro-cid-jlu7nt5s> <div class="feature-extended-image" data-astro-cid-jlu7nt5s> <div class="mockup-bg" data-astro-cid-jlu7nt5s> <img loading="lazy" src="/iphone-feature-bg-01.svg" alt="" data-astro-cid-jlu7nt5s> </div> <img loading="lazy" class="device-mockup is-revealing" src="/likes-website.webp" alt="Screenshot of the app with list of liked names" data-astro-cid-jlu7nt5s> </div> <div class="feature-extended-body is-revealing" data-astro-cid-jlu7nt5s> <h2 class="mt-0 mb-16" data-astro-cid-jlu7nt5s>Full kontroll over navnene dine</h2> <p class="m-0" data-astro-cid-jlu7nt5s> Alle navnene du liker havner i sin egen liste. Vurder navnene med stjerner, se statistikk og del listen din med andre. </p> </div> </div>  </div> </div> </div> </section> <section class="ai-features section" data-astro-cid-ftinajm6> <div class="ai-features-inner section-inner" data-astro-cid-ftinajm6> <div class="ai-features-wrap" data-astro-cid-ftinajm6> <div class="container" data-astro-cid-ftinajm6> <div class="ai-features-content" data-astro-cid-ftinajm6> <div class="ai-central-message" data-astro-cid-ftinajm6> <h2 class="ai-main-title" data-astro-cid-ftinajm6>Dine valg, med litt hjelp fra AI</h2> <p class="ai-description" data-astro-cid-ftinajm6>Drømmenavnet ditt kommer fra deg, ikke en maskin. Appen bruker likevel AI der det passer.</p> </div> <div class="ai-supporting-points hidden" data-astro-cid-ftinajm6> <div class="ai-point ai-point-1" data-astro-cid-ftinajm6> <h3 class="ai-point-title" data-astro-cid-ftinajm6>Tilpasset maskinlæringsmodell</h3> <p class="ai-point-description" data-astro-cid-ftinajm6>En egen ML-modell lærer av likte navn for å levere navneforslag som er tilpasset deg. Alt kjører lokalt i appen. Trygt og godt.</p> </div><div class="ai-point ai-point-2" data-astro-cid-ftinajm6> <h3 class="ai-point-title" data-astro-cid-ftinajm6>Navneforklaringer</h3> <p class="ai-point-description" data-astro-cid-ftinajm6>AI-genererte betydninger, opprinnelse og kulturell kontekst hjelper til med å danne et bilde av navn og støtter beslutningsprosessen din.</p> </div><div class="ai-point ai-point-3" data-astro-cid-ftinajm6> <h3 class="ai-point-title" data-astro-cid-ftinajm6>Flere integrasjoner kommer snart</h3> <p class="ai-point-description" data-astro-cid-ftinajm6>Vi jobber kontinuerlig med nye AI-funksjoner og integrasjoner for å forbedre hjelpen til navnevalget. Hold øynene åpne for spennende oppdateringer!</p> </div> </div> </div> </div> </div> </div> </section>  </main> <footer class="site-footer" data-astro-cid-sz7xmlte> <div class="footer-particles-container" data-astro-cid-sz7xmlte> <canvas id="footer-particles" data-astro-cid-sz7xmlte></canvas> </div> <div class="site-footer-top" data-astro-cid-sz7xmlte> <section class="cta section text-light" data-astro-cid-sz7xmlte> <div class="container-sm" data-astro-cid-sz7xmlte> <div class="cta-inner section-inner" data-astro-cid-sz7xmlte> <div class="cta-header text-center" data-astro-cid-sz7xmlte> <h3 class="section-title mt-0" data-astro-cid-sz7xmlte>Ikke gå glipp av det perfekte barnenavnet</h3> <p class="cta-rating" data-astro-cid-sz7xmlte><span class="stars">⭐⭐⭐⭐⭐</span> 4,5 på App Store</p> <div class="cta-cta" data-astro-cid-sz7xmlte> <a class="button button-primary button-wide-mobile" href="https://onelink.to/finnbarnenavn?fbclid=IwAR39QS2kzRAg4r58YUEI0BsGS33N8PotdK5cppyK6d4ygtuMOcAuoGomWkc" data-astro-cid-sz7xmlte>Last ned appen</a> <button id="sharebutton2" onclick="(function(){
 										navigator.share({
 										title: 'Finn Barnenavn',
-										text: 'Denne appen hjelper deg å finne barnenavn!',
-										url: 'https://finnbarnenavn.no',
+										text: 'Denne appen kan hjelpe deg å finne barnenavn!',
+										url: 'https://www.finnbarnenavn.no',
 									  })
-									})();return false;" class="button button-secondary button-wide-mobile">
-										Tips en venn
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<div class="site-footer-bottom">
-				<div class="container">
-					<div class="site-footer-inner">
-					</div>
-				</div>
-			</div>
-        </footer>
-    </div>
+									})();return false;" class="button button-secondary button-wide-mobile" data-astro-cid-sz7xmlte> Fortell en venn </button> </div> </div> </div> </div> </section> </div> </footer>  </div> <script>
+      (function () {
+        if (navigator.share) {
+          document.getElementById("sharebutton").style.display = "block";
+          document.getElementById("sharebutton2").style.display = "block";
+        }
 
-    <script src="dist/js/main.min.js"></script>
-</body>
-</html>
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            }
+          });
+        });
+
+        const hiddenElements = document.querySelectorAll(".hidden");
+        hiddenElements.forEach((element) => {
+          observer.observe(element);
+        });
+
+        const doc = document;
+        const rootEl = doc.documentElement;
+        const body = doc.body;
+
+        rootEl.classList.remove("no-js");
+        rootEl.classList.add("js");
+
+        // Particle animation
+        let Bubble = function (parentNode) {
+          let self = this;
+          self.parentNode = parentNode;
+          self.getCanvasSize();
+          window.addEventListener("resize", function () {
+            self.getCanvasSize();
+          });
+          self.mouseX = 0;
+          self.mouseY = 0;
+          window.addEventListener("mousemove", function (e) {
+            self.mouseX = e.clientX;
+            self.mouseY = e.clientY;
+          });
+          self.randomise();
+        };
+
+        Bubble.prototype.getCanvasSize = function () {
+          let self = this;
+          self.canvasWidth = self.parentNode.clientWidth;
+          self.canvasHeight = self.parentNode.clientHeight;
+        };
+
+        Bubble.prototype.generateDecimalBetween = function (min, max) {
+          return (Math.random() * (min - max) + max).toFixed(2);
+        };
+
+        Bubble.prototype.update = function () {
+          let self = this;
+          self.translateX = self.translateX - self.movementX;
+          self.translateY = self.translateY - self.movementY;
+          self.posX +=
+            (self.mouseX / (self.staticity / self.magnetism) - self.posX) /
+            self.smoothFactor;
+          self.posY +=
+            (self.mouseY / (self.staticity / self.magnetism) - self.posY) /
+            self.smoothFactor;
+
+          if (
+            self.translateY + self.posY < 0 ||
+            self.translateX + self.posX < 0 ||
+            self.translateX + self.posX > self.canvasWidth
+          ) {
+            self.randomise();
+            self.translateY = self.canvasHeight;
+          }
+        };
+
+        Bubble.prototype.randomise = function () {
+          let self = this;
+          self.colors = [
+            "200,40,116",
+            "150,65,142",
+            "94,78,142",
+            "53,79,120",
+            "230, 31, 70",
+          ];
+          self.velocity = 30; // Bubble levitation velocity (the higher the slower)
+          self.smoothFactor = 50; // The higher, the smoother
+          self.staticity = 30; // Increase value to make bubbles move slower on mousemove
+          self.magnetism = 0.1 + Math.random() * 4;
+          self.color =
+            self.colors[Math.floor(Math.random() * self.colors.length)];
+          self.alpha = self.generateDecimalBetween(5, 10) / 10;
+          self.size = self.generateDecimalBetween(2, 6);
+          self.posX = 0;
+          self.posY = 0;
+          self.movementX = self.generateDecimalBetween(-2, 2) / self.velocity;
+          self.movementY = self.generateDecimalBetween(1, 20) / self.velocity;
+          self.translateX = self.generateDecimalBetween(0, self.canvasWidth);
+          self.translateY = self.generateDecimalBetween(0, self.canvasHeight);
+        };
+
+        let Background = function (selector) {
+          let self = this;
+          self.canvas = document.getElementById(selector);
+          self.ctx = this.canvas.getContext("2d");
+          self.dpr = window.devicePixelRatio;
+        };
+
+        Background.prototype.start = function () {
+          let self = this;
+          self.canvasSize();
+          window.addEventListener("resize", function () {
+            self.canvasSize();
+          });
+          self.bubblesList = [];
+          self.generateBubbles();
+          self.animate();
+        };
+
+        Background.prototype.canvasSize = function () {
+          let self = this;
+          self.container = self.canvas.parentNode;
+          // Determine window width and height
+          self.w = self.container.offsetWidth;
+          self.h = self.container.offsetHeight;
+          self.wdpi = self.w * self.dpr;
+          self.hdpi = self.h * self.dpr;
+          // Set canvas width and height
+          self.canvas.width = self.wdpi;
+          self.canvas.height = self.hdpi;
+          // Set width and height attributes
+          self.canvas.style.width = self.w + "px";
+          self.canvas.style.height = self.h + "px";
+          // Scale down canvas
+          self.ctx.scale(self.dpr, self.dpr);
+        };
+
+        Background.prototype.animate = function () {
+          let self = this;
+          self.ctx.clearRect(
+            0,
+            0,
+            self.canvas.clientWidth,
+            self.canvas.clientHeight
+          );
+          self.bubblesList.forEach(function (bubble) {
+            bubble.update();
+            self.ctx.translate(bubble.translateX, bubble.translateY);
+            self.ctx.beginPath();
+            self.ctx.arc(bubble.posX, bubble.posY, bubble.size, 0, 2 * Math.PI);
+            self.ctx.fillStyle =
+              "rgba(" + bubble.color + "," + bubble.alpha + ")";
+            self.ctx.fill();
+            self.ctx.setTransform(self.dpr, 0, 0, self.dpr, 0, 0);
+          });
+          /* global requestAnimationFrame */
+          requestAnimationFrame(this.animate.bind(this));
+        };
+
+        Background.prototype.addBubble = function (bubble) {
+          return this.bubblesList.push(bubble);
+        };
+
+        Background.prototype.generateBubbles = function () {
+          let self = this;
+          for (let i = 0; i < self.bubbleDensity(); i++) {
+            self.addBubble(new Bubble(self.canvas.parentNode));
+          }
+        };
+
+        Background.prototype.bubbleDensity = function () {
+          return 15;
+        };
+
+        window.addEventListener("load", function () {
+          setTimeout(() => {
+            const heroParticles = new Background("hero-particles");
+            const footerParticles = new Background("footer-particles");
+            heroParticles.start();
+            footerParticles.start();
+          }, 3000);
+
+          // Fade out scroll indicator on scroll
+          const scrollIndicator = document.querySelector('.scroll-indicator');
+          if (scrollIndicator) {
+            window.addEventListener('scroll', function() {
+              const scrollY = window.scrollY;
+              const opacity = Math.max(0, 1 - (scrollY / 200));
+              scrollIndicator.style.opacity = opacity;
+            });
+          }
+        });
+
+        const menuTrigger = document.getElementById("menu-trigger");
+        const menuOverlay = document.getElementById("menu-overlay");
+        const menuClose = document.getElementById("menu-close");
+
+        function openMenu() {
+          menuOverlay.classList.add("menu-open");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeMenu() {
+          menuOverlay.classList.remove("menu-open");
+          document.body.style.overflow = "";
+        }
+
+        menuTrigger.addEventListener("click", openMenu);
+        menuClose.addEventListener("click", closeMenu);
+
+        menuOverlay.addEventListener("click", function(e) {
+          if (e.target === menuOverlay) {
+            closeMenu();
+          }
+        });
+
+        window.requestAnimFrame = (function () {
+          return (
+            window.requestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            window.oRequestAnimationFrame ||
+            window.msRequestAnimationFrame ||
+            function (callback) {
+              window.setTimeout(callback, 1000 / 60);
+            }
+          );
+        })();
+      })();
+    </script> </body> </html>
