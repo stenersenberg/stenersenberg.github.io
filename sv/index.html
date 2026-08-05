@@ -441,7 +441,9 @@
         let frameId = null;
         let timers = [];
         let resting = [];
-        let lastSize = layer.clientWidth + "x" + layer.clientHeight;
+        let active = [];
+        let lastWidth = layer.clientWidth;
+        let lastHeight = layer.clientHeight;
 
         function rand(min, max) {
           return min + Math.random() * (max - min);
@@ -481,6 +483,7 @@
           layer.classList.remove("is-flying");
           figure.classList.remove("is-squeezing");
           resting = [];
+          active = [];
           running = false;
           signal("hero-signs:end");
         }
@@ -533,6 +536,26 @@
           };
         }
 
+        function applyBounds(sign, width, height) {
+          sign.left = SIDE_INSET;
+          sign.right = width - SIDE_INSET;
+          sign.top = TOP_INSET;
+          sign.floor = height - FLOOR_INSET - sign.lane * (sign.h + LANE_GAP);
+        }
+
+        function refit() {
+          const width = layer.clientWidth;
+          const height = layer.clientHeight;
+          active.forEach(function (sign) {
+            applyBounds(sign, width, height);
+            if (sign.asleep) {
+              sign.cy = sign.floor - halfExtents(sign).y;
+            }
+            contain(sign);
+            draw(sign);
+          });
+        }
+
         function createSigns() {
           const width = layer.clientWidth;
           const height = layer.clientHeight;
@@ -570,14 +593,11 @@
             const spread = (0.25 + 0.75 * tier) * rand(0.85, 1.15);
             const lane = Math.floor(index / 2) % 2;
 
-            return {
+            const sign = {
               el: el,
               w: size.w,
               h: size.h,
-              left: SIDE_INSET,
-              right: width - SIDE_INSET,
-              top: TOP_INSET,
-              floor: height - FLOOR_INSET - lane * (size.h + LANE_GAP),
+              lane: lane,
               cx: originX,
               cy: originY,
               vx: direction * maxVx * spread * (compact ? 1.15 : 1),
@@ -588,6 +608,9 @@
               vrot: rand(-150, 150),
               asleep: false,
             };
+
+            applyBounds(sign, width, height);
+            return sign;
           });
 
           signs.forEach(draw);
@@ -704,7 +727,10 @@
             layer.textContent = "";
             layer.classList.add("is-flying");
             resting = [];
-            simulate(createSigns());
+            active = createSigns();
+            lastWidth = layer.clientWidth;
+            lastHeight = layer.clientHeight;
+            simulate(active);
           }, POP_DELAY);
           later(function () {
             figure.classList.remove("is-squeezing");
@@ -713,9 +739,19 @@
 
         figure.addEventListener("click", play);
         window.addEventListener("resize", function () {
-          const size = layer.clientWidth + "x" + layer.clientHeight;
-          if (size === lastSize) return;
-          lastSize = size;
+          const width = layer.clientWidth;
+          const height = layer.clientHeight;
+          if (width === lastWidth && height === lastHeight) return;
+
+          const widthChanged = width !== lastWidth;
+          lastWidth = width;
+          lastHeight = height;
+
+          if (!widthChanged) {
+            refit();
+            return;
+          }
+
           if (running) cleanup();
           else if (resting.length) dismiss();
         });
