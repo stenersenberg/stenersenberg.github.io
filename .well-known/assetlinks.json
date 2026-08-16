@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.karlms.kinder",
+      "sha256_cert_fingerprints": [
+        "69:18:E1:9E:0B:08:E2:7F:EF:C1:CD:DC:14:1D:D0:65:17:1B:1C:39:6E:E6:A7:6A:7B:F3:91:5F:FE:E8:84:16"
+      ]
+    }
+  }
+]

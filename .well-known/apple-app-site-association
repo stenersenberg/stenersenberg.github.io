@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "KH64267Q55.com.karlms.kinder",
+        "paths": ["/join", "/join/*"]
+      }
+    ]
+  }
+}
