@@ -1,0 +1,25 @@
+# Norbert
+
+> Sveip gjennom tusenvis av barnenavn og få personlige navneforslag. Norbert hjelper deg og partneren din med å finne det perfekte navnet sammen.
+
+Norbert er en navneapp som lærer hvilke navn du liker, og gir deg personlige forslag. Finn favorittene dine alene, sammen med partneren din eller med venner.
+
+## App
+
+- [App Store](https://apps.apple.com/app/id1556431682): Norbert for iPhone
+- [Google Play](https://play.google.com/store/apps/details?id=com.karlms.kinder): Norbert for Android
+- [Kontakt](https://www.finnbarnenavn.no/contact/): Norbert er laget av Aksla AS. Hvis du har noen spørsmål eller annen tilbakemelding, ta gjerne kontakt.
+
+## Artikler - barnenavn og navnetips
+
+- [Navnetoppen i 2026: de nyeste tallene fra 2025](https://www.finnbarnenavn.no/articles/navnetoppen-2026/): Ferske tall fra SSB, Statistisk sentralbyrå, viser hvilke navn norske foreldre valgte i 2025. Her er hele topp 10 for jenter og gutter.
+- [Hvilke barnenavn kan bli populære i 2027?](https://www.finnbarnenavn.no/articles/navnetoppen-2027/): Den offisielle lista er ikke klar ennå, men vi kan allerede se noen tendenser. Her er navnene som peker oppover.
+- [5 ting å vurdere når du velger navn](https://www.finnbarnenavn.no/articles/5-things-to-consider-when-choosing-a-name/): Å komme i gang med navnevalget er ikke alltid lett. Her er noen tips som kan hjelpe deg på veien.
+- [Kulturelle hensyn ved valg av barnenavn](https://www.finnbarnenavn.no/articles/cultural-considerations-names/): Hvordan velger dere et navn som passer familiens bakgrunn og fungerer godt i hverdagen?
+- [Uenighet om navn? Slik finner dere felles løsninger](https://www.finnbarnenavn.no/articles/partner-disagreement-on-names/): Uenighet om navn kan skape stress i en ellers spennende tid. Her er noen tips som kan hjelpe dere å finne et navn dere begge liker.
+- [Populære barnenavn i Norge i 2024](https://www.finnbarnenavn.no/articles/top-names-norway/): Lurer du på hva norske foreldre kaller barna sine? Se hvilke navn som lå på topp, og hvordan navnevalgene endrer seg.
+- [Unike vs. populære navn: finn den perfekte balansen](https://www.finnbarnenavn.no/articles/unique-vs-popular-names/): Bør du velge et navn som skiller seg ut, eller et som passer inn? Her er fordeler og ulemper ved både uvanlige og populære navn.
+
+## Valgfritt
+
+- [Vilkår og personvern](https://www.finnbarnenavn.no/terms-conditions-privacy-policy/)
