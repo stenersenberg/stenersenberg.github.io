@@ -99,6 +99,8 @@
         }
       })(document, window.mixpanel || []);
 
-      mixpanel.init("8e498f4c3878dca4cc6cb621c76f9301");
+      mixpanel.init("8e498f4c3878dca4cc6cb621c76f9301", {
+        api_host: "https://api-eu.mixpanel.com",
+      });
       mixpanel.track("Page view");
     </script> </body> </html>
